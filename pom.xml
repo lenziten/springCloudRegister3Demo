@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   
   <groupId>com.demo</groupId>
-  <artifactId>springBootDemo</artifactId>
+  <artifactId>springBootRegister3Demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
   <name>springBootDemo Maven Webapp</name>
@@ -26,30 +26,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-        <!-- 添加mysql jdbc驱动 -->
-		<dependency>
-		    <groupId>mysql</groupId>
-		    <artifactId>mysql-connector-java</artifactId>
-		    <version>6.0.6</version>
-		</dependency>
-		<!-- 添加jquery依赖的jar包 -->
-		<dependency>
-		    <groupId>org.webjars</groupId>
-		    <artifactId>jquery</artifactId>
-		    <version>1.11.3</version>
-		</dependency>
-		<!-- 整合spring与mybatis -->
-		<dependency>
-		    <groupId>org.mybatis.spring.boot</groupId>
-		    <artifactId>mybatis-spring-boot-starter</artifactId>
-		    <version>1.0.0</version>
-		</dependency>
-		<!-- 添加css、js文件的版本管理 -->
-		<dependency>
-		    <groupId>org.webjars</groupId>
-		    <artifactId>webjars-locator</artifactId>
-		</dependency>
 		<!-- 添加spring boot的单元测试功能 -->
 	    <dependency>
 	        <groupId>org.springframework.boot</groupId>
@@ -67,47 +43,6 @@
 	        <groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
 	    </dependency>
-		<!-- <dependency>
-		    <groupId>org.mybatis</groupId>
-		    <artifactId>mybatis</artifactId>
-		    <version>3.2.1</version>
-		</dependency>
-			<dependency>
-	        <groupId>org.mybatis</groupId>
-	        <artifactId>mybatis-spring</artifactId>
-	        <version>1.3.1</version>
-	      </dependency> -->
-        <!-- <dependency>
-		    <groupId>com.alibaba</groupId>
-		    <artifactId>druid</artifactId>
-		    <version>0.2.19</version>
-		</dependency> -->
-		<!-- https://mvnrepository.com/artifact/com.zaxxer/HikariCP -->
-		<!-- <dependency>
-		    <groupId>com.zaxxer</groupId>
-		    <artifactId>HikariCP</artifactId>
-		    <version>2.7.2</version>
-		</dependency> -->
-		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
-		<!-- <dependency>
-		    <groupId>com.fasterxml.jackson.core</groupId>
-		    <artifactId>jackson-core</artifactId>
-		    <version>2.9.2</version>
-		</dependency> -->
-		
-		<!-- <dependency>  
-		    <groupId>org.springframework</groupId>  
-		    <artifactId>spring-tx</artifactId>  
-		    <version>3.1.0.RELEASE</version>  
-		</dependency>  -->
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
-		<!-- <dependency>
-		    <groupId>org.springframework</groupId>
-		    <artifactId>spring-jdbc</artifactId>
-		    <version>3.1.0.RELEASE</version>
-		</dependency> -->
-		
-
     </dependencies>
   
 	<dependencyManagement>
@@ -123,7 +58,7 @@
 	</dependencyManagement>
   
   <build>
-    <finalName>springBootDemo</finalName>
+    <finalName>springBootRegister3Demo</finalName>
          <resources>
         	<resource>
         		<directory>src/main/java</directory>
@@ -146,5 +81,4 @@
     	</plugin>
     </plugins>
   </build>
-  <packaging>war</packaging>
 </project>
